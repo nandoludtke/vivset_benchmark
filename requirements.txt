@@ -1,0 +1,10 @@
+chromadb
+openai
+anthropic
+google-generativeai
+ultralytics
+opencv-python
+pandas
+regex
+pillow
+numpy
