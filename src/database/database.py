@@ -1,12 +1,11 @@
 # general
 import os
-import sys
 import re
 import json
 import pandas as pd
 
 # database
-from chromadb import Client, PersistentClient
+from chromadb import PersistentClient
 
 class LocalDatabase:
     def __init__(self, db_dir: str):

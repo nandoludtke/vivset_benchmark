@@ -18,16 +18,8 @@ import anthropic
 # Gemini
 import google.generativeai as genai
 
-# get workspace directory
-child_dir = 'src'
-workspace_dir = os.getcwd()
-workspace_dir = os.path.sep.join(workspace_dir.split(os.path.sep)[:workspace_dir.split(os.path.sep).index(child_dir)])
-
-# custom imports
-sys.path.insert(0, os.path.dirname(os.getcwd()))
-sys.path.append(os.path.join(workspace_dir, 'src'))
-from database.database import LocalDatabase
-from yolo import yolo_labeling
+from src.database.database import LocalDatabase
+from src.yolo import yolo_labeling
 
 class ActionInterpretation:
     def __init__(self, llm_client_type, actions_description_file: str):

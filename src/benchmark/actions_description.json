@@ -1,0 +1,70 @@
+{
+    "disinfectant_wipe": {
+        "possible_actions": [
+            "disinfect stethoscope: if the disinfectant wipe is laying on or close to the stethoscope, the stethoscope was disinfected"
+        ]
+    },
+    "face_mask_box": {
+        "possible_actions": [
+            "put on face mask: if the lid of the face mask box is fully opened and does not cover the opening at all, the face mask was put on"
+        ]
+    },
+    "gloves": {
+        "possible_actions": [
+            "put on gloves: if the gloves are laying on the counter, the gloves were put on",
+            "discard gloves in trash: if the gloves are laying on the trash can, the gloves were discarded in the trash"
+        ]
+    },
+    "gown": {
+        "possible_actions": [
+            "put on gown: if the gown is laying on the counter, the gown was put on"
+        ]
+    },
+    "hand_sanitizer": {
+        "possible_actions": [
+            "disinfect hands: if the hand sanitizer is brought closer to the camera (appears larger), the hands were disinfected. Take into account the whole series of images regarding the movement of the hand sanitizer."
+        ]
+    },
+    "paper_towel": {
+        "possible_actions": [
+            "dry hands: if the paper towel is laying on the counter, the hands were dried",
+            "put paper towel on sink handle: if the paper towel is wrapped around the sink handle, the paper towel was put on the sink handle"
+        ]
+    },
+    "poster": {
+        "possible_actions": [
+            "none"
+        ]
+    },
+    "water_stream": {
+        "possible_actions": [
+            "turn on sink and wash hands using soap: if a water stream is visible, the sink handle was turned on and hands were washed with soap",
+            "turn off sink: if no water stream is visible anymore, the sink handle was turned off"
+        ]
+    },
+    "stethoscope": {
+        "possible_actions": [
+            "none"
+        ]
+    },
+    "trash_can": {
+        "possible_actions": [
+            "none"
+        ]
+    },
+    "n95_box": {
+        "possible_actions": [
+            "none"
+        ]
+    },
+    "n95_mask": {
+        "possible_actions": [
+            "put on n95 mask: if the n95 mask is laying on the counter, the n95 mask was put on"
+        ]
+    },
+    "face_shield": {
+        "possible_actions": [
+            "put on face shield: if the face shield is brought closer to the camera, the face shield is put on"
+        ]
+    }
+}
